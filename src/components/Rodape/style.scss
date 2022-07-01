@@ -1,0 +1,14 @@
+:root {
+  --roxo-escuro: #10002b;
+  --roxo-claro: #7b2cbf;
+}
+
+footer {
+  background: var(--roxo-escuro);
+  border-top: 1px solid var(--roxo-claro);
+  padding: 10px 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

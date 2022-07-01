@@ -1,0 +1,25 @@
+.container-principal {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.container-login {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.wrap-login{
+  width: 500px;
+  background-color: #10002b;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 80px 55px 80px 55px;
+  box-shadow: 0 5px 10px 0 rgba($color: #000000, $alpha: 0.4);
+
+}

@@ -1,0 +1,28 @@
+
+:root {
+  --roxo-escuro: #10002b;
+  --roxo-claro: #7b2cbf;
+}
+
+
+.btn-generico {
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  // color: #3c096c;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 50px;
+  background-color: var(--roxo-claro);
+
+  &:hover{
+    background-color: rgba($color: #5a189a, $alpha: 0.7);
+    transition: all 0.5s;
+  }
+}

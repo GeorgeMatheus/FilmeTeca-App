@@ -1,0 +1,34 @@
+:root {
+  --roxo-escuro: #10002b;
+  --roxo-claro: #7b2cbf;
+}
+
+.search-box {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+
+}
+
+
+.search-box input{
+  height: 40px;
+  border: none;
+  background: whitesmoke;
+  // border-radius: 10px 0 0 10px;
+  border-bottom: 1px solid var(--roxo-claro);
+  font-size: 1.3rem;
+  flex: 1;
+}
+
+.search-box button {
+  background: var(--roxo-claro);
+  font-size: 1.3rem;
+  color: white;
+  border: none;
+  // padding: 5px;
+  height: 40px;
+  width: 50px;
+  border-radius: 5px;
+  
+}
